@@ -8,7 +8,9 @@ dependencies = [
     "imbalanced-learn>=0.12.4",
     "kagglehub[pandas-datasets]>=0.3.13",
     "matplotlib>=3.9.4",
+    "numpy==1.23",
     "pyqt6>=6.10.0",
+    "scikit-learn==1.6.1",
     "shap==0.35",
 ]
 

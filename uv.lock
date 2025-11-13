@@ -343,7 +343,9 @@ dependencies = [
     { name = "imbalanced-learn" },
     { name = "kagglehub", extra = ["pandas-datasets"] },
     { name = "matplotlib" },
+    { name = "numpy" },
     { name = "pyqt6" },
+    { name = "scikit-learn" },
     { name = "shap" },
 ]
 
@@ -357,7 +359,9 @@ requires-dist = [
     { name = "imbalanced-learn", specifier = ">=0.12.4" },
     { name = "kagglehub", extras = ["pandas-datasets"], specifier = ">=0.3.13" },
     { name = "matplotlib", specifier = ">=3.9.4" },
+    { name = "numpy", specifier = "==1.23" },
     { name = "pyqt6", specifier = ">=6.10.0" },
+    { name = "scikit-learn", specifier = "==1.6.1" },
     { name = "shap", specifier = "==0.35" },
 ]
 
