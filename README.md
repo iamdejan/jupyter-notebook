@@ -10,8 +10,9 @@ There's a Python library called `shap` that's based on Shapley values. But, the 
 
 1) Clone this repository.
 2) Run `uv sync`. This will download all dependencies.
-3) Create kernel: `uv run ipython kernel install --user --env VIRTUAL_ENV $(pwd)/.venv --name=project`
 
 ## Run Jupyter Notebook
 
-Run the kernel: `uv run --with jupyter jupyter lab`
+You can either:
+- Run `sh run.sh`; or
+- Create & run the kernel manually: `uv run ipython kernel install --user --env VIRTUAL_ENV $(pwd)/.venv --name=project && uv run --with jupyter jupyter lab`
