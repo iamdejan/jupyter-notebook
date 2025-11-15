@@ -12,3 +12,6 @@ wheels/
 # assignment file
 *.ipynb
 !Playground.ipynb
+
+# downloaded dataset
+/data
