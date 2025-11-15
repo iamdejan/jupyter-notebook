@@ -3,7 +3,7 @@ name = "jupyter-playground"
 version = "0.1.0"
 description = "Run Jupyter notebook locally"
 readme = "README.md"
-requires-python = ">=3.10,<3.11"
+requires-python = ">=3.9,<3.10"
 dependencies = [
     "imbalanced-learn>=0.12.4",
     "kagglehub[pandas-datasets]>=0.3.13",
@@ -11,8 +11,8 @@ dependencies = [
     "numpy==1.23",
     "pyqt6>=6.10.0",
     "scikit-learn==1.6.1",
-    "torch>=2.9.1",
-    "torchvision>=0.24.1"
+    "torch>=2.5.0",
+    "torchvision>=0.23"
 ]
 
 [dependency-groups]
