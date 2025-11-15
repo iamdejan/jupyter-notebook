@@ -1,6 +1,8 @@
-# Jupyter Playground for XAI
+# Jupyter Playground
 
-There's a Python library called `shap` that's based on Shapley values. But, the newer versions of the library introduce a breaking change in the shap values format. This repository serves as local setup and local playground for old versions of Python, `shap` and other dependencies, since the Python version in Google Colab cannot be downgraded.
+This repository will be used to run Jupyter notebook locally. Some uses cases are:
+- To run `shap` library for Explainable AI. Since the newer versions introduce a breaking change in the shap values format, we need an isolated local environment.
+- Ro run Google Colab locally, since we only have free plan.
 
 ## Prerequisites
 
